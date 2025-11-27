@@ -60,5 +60,23 @@ if po_compacto > base_liquida:
 elif po_compacto < base_liquida:
   print('A base liquida obteve uma quantidade de venda maior')
 else:
+  print('As dois itens tiveram a mesma quantidade de vendas')
+```
+
+### Solicita dois números para o usuário e realiza a soma dos números recebidos
+```
+def somar(a, b):
+    return a + b
+
+try:  
+    numero_1 = float(input('Digite o primeiro número: '))
+    numero_2 = float(input('Digite o segundo número: '))
+    
+    resultado = numero_1 + numero_2
+    print(f'A soma é {resultado}')
+    
+except ValueError:
+    print("Digite apenas números válidos")
+```    
   print('A quantidade de vendas foi a mesma para ambos os itens')
 ```
