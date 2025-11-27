@@ -1,10 +1,6 @@
 # Python-Back-end
 
 ´´´
-Função que calcula a idadde de um usuário
-´´´
-
-´´´
 
 ### Função que calcula a idade de um usuário
 ```
@@ -25,9 +21,8 @@ palavra = input('Digite uma palavra: ')
 print(f'A sua palavra contém {contagem_caracteres(palavra)} caracteres.')
 ```
 
-
-
 ### Função que retorna saudação para o usuário
+```
 def exibir_saudacao_hora():
     hora_atual = int(input('Digite a hora atual (digite números entre 0 a 23): '))
 
