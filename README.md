@@ -36,8 +36,8 @@ def exibir_saudacao_hora():
 print(exibir_saudacao_hora())
 ```
 
-### Verifica se um produtojá foi cadastrado no sistema
-
+### Verifica se um produto já foi cadastrado no sistema
+```
 produtos = ['Creme Facial Hidratante LuminaSoft 50ml', 'Sérum Anti-Idade RadiantLift 30ml', 'Gel de Limpeza PurifySkin 120ml', 'Tônico Revitalizante SkinBoost 200ml' ]
 produto = input('Digite o produto que você quer verificar: ')
 
