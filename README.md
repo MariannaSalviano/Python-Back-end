@@ -15,3 +15,12 @@ def calcular_idade():
     return idade
 print(f'A sua idade é {calcular_idade()}' ' anos.')
 ```
+
+### Função que conta caracteres de uma palavra digitada pelo usuário
+```
+def contagem_caracteres(palavra):
+    return len(palavra)
+
+palavra = input('Digite uma palavra: ')
+print(f'A sua palavra contém {contagem_caracteres(palavra)} caracteres.')
+```
