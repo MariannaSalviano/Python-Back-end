@@ -24,3 +24,19 @@ def contagem_caracteres(palavra):
 palavra = input('Digite uma palavra: ')
 print(f'A sua palavra contém {contagem_caracteres(palavra)} caracteres.')
 ```
+
+
+
+### Função que retorna saudação para o usuário
+def exibir_saudacao_hora():
+    hora_atual = int(input('Digite a hora atual (digite números entre 0 a 23): '))
+
+    if hora_atual < 12:
+        return 'Bom dia!'
+    elif hora_atual < 18:
+        return 'Boa tarde!'
+    else:
+        return 'Boa noite!'    
+
+print(exibir_saudacao_hora())
+```
