@@ -48,3 +48,17 @@ else:
 
 print(f'Lista de produtos cadastrados: {produtos}')
 ```
+
+
+### Compara a maior venda quantidade entre dois produtos
+```
+po_compacto = input('Digite a quantidade de Pó compacto vendida: ')
+base_liquida = input('Digite a quantidade de Base líquida vendida: ')
+
+if po_compacto > base_liquida:
+   print('O pó compacto obteve uma quantidade de venda maior.')
+elif po_compacto < base_liquida:
+  print('A base liquida obteve uma quantidade de venda maior')
+else:
+  print('A quantidade de vendas foi a mesma para ambos os itens')
+```
