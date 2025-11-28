@@ -63,20 +63,28 @@ else:
   print('As dois itens tiveram a mesma quantidade de vendas')
 ```
 
-### Solicita dois números para o usuário e realiza a soma dos números recebidos
+### Solicita dois números para o usuário, realiza a soma dos números recebidos e compara se é maior, igual ou menor que 10.
 ```
-def somar(a, b):
-    return a + b
+def somar(a,b):
+  return a + b
 
 while True:
-    try:  
-        numero_1 = float(input('Digite o primeiro número: '))
-        numero_2 = float(input('Digite o segundo número: '))
-        
-        resultado = numero_1 + numero_2
-        print(f'A soma é {resultado}')
-        break
-        
-    except ValueError:
+  try:
+      numero_1 = int(input('Digite um numero inteiro: '))
+      numero_2 = int(input('Digite um numero inteiro: '))
+
+      soma = numero_1 + numero_2
+
+      print(f'A soma dos números é {soma}.')
+
+      if soma > 10:
+        print('A soma dos números é maior que 10.')
+      elif soma == 10:
+        print('A soma dos números é igual a 10.')
+      else:
+        print('A soma dos números é menor que 10.')  
+      break
+
+  except ValueError:
         print("Digite apenas números válidos")
 ```    
