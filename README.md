@@ -63,7 +63,7 @@ else:
   print('As dois itens tiveram a mesma quantidade de vendas')
 ```
 
-### Solicita dois números para o usuário, realiza a soma dos números recebidos e compara se é maior, igual ou menor que 10.
+### Solicita dois números para o usuário, realiza a soma dos números recebidos e compara se é maior, igual ou menor que 100.
 ```
 def somar(a,b):
   return a + b
@@ -77,12 +77,12 @@ while True:
 
       print(f'A soma dos números é {soma}.')
 
-      if soma > 10:
-        print('A soma dos números é maior que 10.')
-      elif soma == 10:
-        print('A soma dos números é igual a 10.')
+      if soma > 100:
+        print('A soma dos números é maior que 100.')
+      elif soma == 100:
+        print('A soma dos números é igual a 100.')
       else:
-        print('A soma dos números é menor que 10.')  
+        print('A soma dos números é menor que 100.')  
       break
 
   except ValueError:
