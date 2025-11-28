@@ -88,3 +88,22 @@ while True:
   except ValueError:
         print("Digite apenas números válidos")
 ```    
+
+### Solicita para o usuário as notas do aluno em cada trimestre, realiza a soma e diz se o aluno foi aprovado ou reprovado
+```
+def verificar_total_notas_ano():
+
+    nota_1º_trimestre = int(input("Digite a nota total do aluno no 1º trimestre: "))
+    nota_2º_trimestre = int(input("Digite a nota total do aluno no 2º trimestre: "))
+    nota_3º_trimestre = int(input("Digite a nota total do aluno no 3º trimestre: "))
+    nota_4º_trimestre = int(input("Digite a nota total do aluno no 4º trimestre: "))
+
+    soma = (nota_1º_trimestre + nota_2º_trimestre + nota_3º_trimestre + nota_4º_trimestre)
+
+    if soma >= 60:
+      print('O aluno está aprovado!')
+    else:
+      print('O aluno está reprovado')  
+
+verificar_total_notas_ano()
+```
